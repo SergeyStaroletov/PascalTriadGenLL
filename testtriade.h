@@ -9,6 +9,7 @@ class TestTriade : public QObject {
   void testTrivial();
   void testExpression();
   void testFunction();
+  void testWhile();
 
  private:
   bool runTest(QString &src, QString expected);
