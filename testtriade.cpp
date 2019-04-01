@@ -87,7 +87,7 @@ void TestTriade::testWhile() {
 }
 
 // magic
-bool TestTriade::runTest(QString &src, QString expected) {
+bool TestTriade::runTest(QString &src, QString &expected) {
   QFile testFile("test.pas");
 
   if (testFile.open(QIODevice::WriteOnly)) {
