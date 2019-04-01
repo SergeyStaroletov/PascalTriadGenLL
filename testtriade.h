@@ -12,6 +12,6 @@ class TestTriade : public QObject {
   void testWhile();
 
  private:
-  bool runTest(QString &src, QString expected);
+  bool runTest(QString &src, QString &expected);
 };
 #endif
